@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+
+  <project>
+    <path>$WS_DIR$..\..\..\..\..\software\lpc_core\lpc_board\boards_17xx\nxp_lpcxpresso_1769\lib_lpc_board_nxp_lpcxpresso_1769.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$..\..\..\..\..\software\lpc_core\lpc_chip\chip_17xx_40xx\lib_lpc_chip_175x_6x.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\usbd_lib\usbd_lib_cdc\usbd_lib_cdc.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\usbd_lib\usbd_lib_cdc_uart\usbd_lib_cdc_uart.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\usbd_lib\usbd_lib_composite\usbd_lib_composite.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\usbd_lib\usbd_lib_hid_generic\usbd_lib_hid_generic.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\usbd_lib\usbd_lib_hid_keyboard\usbd_lib_hid_keyboard.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\usbd_lib\usbd_lib_hid_mouse\usbd_lib_hid_mouse.ewp</path>
+  </project>
+  
+  <batchBuild>
+    <batchDefinition>
+      <name>All_libs_and_Examples</name>
+	  
+      <member>
+        <project>lib_lpc_board_nxp_lpcxpresso_1769</project>
+        <configuration>nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+      <member>
+        <project>lib_lpc_chip_17xx_40xx</project>
+        <configuration>chip_175x_6x_lib</configuration>
+      </member>
+		
+	  <member>
+        <project>usbd_lib_cdc</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>usbd_lib_cdc_uart</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>usbd_lib_composite</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>usbd_lib_hid_generic</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>usbd_lib_hid_keyboard</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>usbd_lib_hid_mouse</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	</batchDefinition>
+  </batchBuild>
+</workspace>
+
+

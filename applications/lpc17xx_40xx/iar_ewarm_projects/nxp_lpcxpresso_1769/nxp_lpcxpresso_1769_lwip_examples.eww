@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\software\lpc_core\lpc_board\boards_17xx\nxp_lpcxpresso_1769\lib_lpc_board_nxp_lpcxpresso_1769.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\software\lpc_core\lpc_chip\chip_17xx_40xx\lib_lpc_chip_175x_6x.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\lwip\lwip_tcpecho_freertos\lwip_tcpecho_freertos.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\lwip\lwip_tcpecho_sa\lwip_tcpecho_sa.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\lwip\webserver\webserver.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\lwip\webserver_freertos\webserver_freertos.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All_libs_and_Examples</name>
+      <member>
+        <project>lib_lpc_board_nxp_lpcxpresso_1769</project>
+        <configuration>nxp_lpcxpresso_1769</configuration>
+      </member>
+      <member>
+        <project>lib_lpc_chip_17xx_40xx</project>
+        <configuration>chip_175x_6x_lib</configuration>
+      </member>
+      <member>
+        <project>lwip_tcpecho_freertos</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+      <member>
+        <project>lwip_tcpecho_sa</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+      <member>
+        <project>webserver</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+      <member>
+        <project>webserver_freertos</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

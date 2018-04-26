@@ -1,0 +1,11 @@
+<LPCOpenCfg>
+	<symbol name="varExampleDestInc" value="example/inc" options="default"/>
+	<symbol name="varLocalIncEnable" value="${varExampleEnable}" options="default"/>
+	<symbol name="prjIgnoreList"     value="ucos_iii/startup_code|${prjIgnoreList}"/>
+	<symbol name="varExampleIncDir"  value="${varExampleSrcDir}/ucos_iii_config"/>
+	<symbol name="varExStartupFile"  value="cr_ucos_iii_startup_lpc17xx40xx.c"/>
+	<symbol name="varExStartupDir"  value="${varExampleSrcDir}/../startup_code"/>
+	<symbol name="varUcosiiiBspDir" value="lpc17xx40xx_bsp"/>
+	<module name="basic_example"/>
+	<module name="ucos_iii"/>
+</LPCOpenCfg>

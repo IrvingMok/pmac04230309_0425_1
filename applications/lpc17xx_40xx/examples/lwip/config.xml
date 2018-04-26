@@ -1,0 +1,20 @@
+<LPCOpenCfg>
+	<symbol name="varExampleDestInc" value="example/inc"/>
+	<symbol name="varLocalIncEnable" value="${varExampleEnable}"/>
+	<symbol name="prjIgnoreList"     value="lwip/startup_code"/>
+	<symbol name="varExampleIncDir"  value="${varExampleSrcDir}/configs"/>
+	<symbol name="varExampleMemCfgDir" value="${prjDestToRoot}/${prjExampleBaseDir}/tool_configs/lpcxpresso_memory_xml" tool="xpresso"/>
+	<symbol name="varExampleMemCfgFile" value="mem_heap_1788_4088.xml" tool="xpresso"/>
+
+	<module name="basic_example"/>
+	<module name="lwip"/>
+	<template tool="xpresso" section="import" name="${varLwIPEnable}_lwip_src1">
+		<copy>arch/lpc17xx_40xx_emac.c</copy>
+	</template>
+	<template tool="xpresso" section="import" name="${varLwIPEnable}_lwip_inc1">
+		<copy>arch/lpc17xx_40xx_emac.h</copy>
+	</template>
+	<template section="cfglist" name="ea_devkit_${prjChipName}_${varExampleName}" tool="xpresso">
+		<memoryConfiguration href="${varExampleMemCfgDir}/${varExampleMemCfgFile}"/>
+	</template>
+</LPCOpenCfg>

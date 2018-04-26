@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+
+  <project>
+    <path>$WS_DIR$..\..\..\..\..\software\lpc_core\lpc_board\boards_17xx\nxp_lpcxpresso_1769\lib_lpc_board_nxp_lpcxpresso_1769.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$..\..\..\..\..\software\lpc_core\lpc_chip\chip_17xx_40xx\lib_lpc_chip_175x_6x.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_adc\periph_adc.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_blinky\periph_blinky.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_bod\periph_bod.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_can\periph_can.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_clkout\periph_clkout.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_dac\periph_dac.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_ethernet\periph_ethernet.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_flashiap\periph_flashiap.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_i2c\periph_i2c.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_pinint\periph_pinint.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_pmu\periph_pmu.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_ritimer\periph_ritimer.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_rtc\periph_rtc.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_spi\periph_spi.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_ssp\periph_ssp.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_systick\periph_systick.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_timer\periph_timer.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_uart_rb\periph_uart_rb.ewp</path>
+  </project>
+  
+  <project>
+    <path>$WS_DIR$\periph\periph_watchdog\periph_watchdog.ewp</path>
+  </project>
+  
+  <batchBuild>
+    <batchDefinition>
+      <name>All_libs_and_Examples</name>
+	  
+      <member>
+        <project>lib_lpc_board_nxp_lpcxpresso_1769</project>
+        <configuration>nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+      <member>
+        <project>lib_lpc_chip_17xx_40xx</project>
+        <configuration>chip_175x_6x_lib</configuration>
+      </member>
+		
+	  <member>
+        <project>periph_adc</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_blinky</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_bod</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_can</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_clkout</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_dac</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_ethernet</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_flashiap</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_i2c</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_i2s</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_pinint</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_pmu</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_ritimer</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_rtc</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+	  
+	  <member>
+        <project>periph_spi</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+
+	  <member>
+        <project>periph_ssp</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+
+	  <member>
+        <project>periph_systick</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+
+	  <member>
+        <project>periph_timer</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+
+	  <member>
+        <project>periph_uart_rb</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+
+	  <member>
+        <project>periph_watchdog</project>
+        <configuration>iflash_nxp_lpcxpresso_1769</configuration>
+      </member>
+
+	</batchDefinition>
+  </batchBuild>
+</workspace>
+
+

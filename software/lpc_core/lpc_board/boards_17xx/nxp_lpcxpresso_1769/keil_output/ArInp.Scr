@@ -1,0 +1,4 @@
+--create .\keil_output\board_nxp_lpcxpresso_1769.lib
+.\keil_output\lpc_phy_smsc87x0.o
+.\keil_output\board.o
+.\keil_output\board_sysinit.o

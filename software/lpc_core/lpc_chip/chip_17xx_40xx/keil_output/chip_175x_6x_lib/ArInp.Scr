@@ -1,0 +1,26 @@
+--create .\keil_output\chip_175x_6x_lib\chip_175x_6x_lib.lib
+.\keil_output\chip_175x_6x_lib\adc_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\can_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\clock_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\dac_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\enet_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\gpdma_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\gpio_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\i2c_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\i2s_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\iocon_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\ritimer_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\rtc_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\spi_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\ssp_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\sysctl_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\timer_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\uart_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\wwdt_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\ring_buffer.o
+.\keil_output\chip_175x_6x_lib\pmu_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\stopwatch_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\chip_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\sysinit_17xx_40xx.o
+.\keil_output\chip_175x_6x_lib\iap.o
+.\keil_output\chip_175x_6x_lib\gpioint_17xx_40xx.o

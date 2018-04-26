@@ -1,0 +1,8 @@
+<LPCOpenCfg>
+	<template tool="xpresso" section="import" name="${varExampleFullName}_src">
+		<include>*.h</include>
+	</template>
+	<template tool="xpresso" section="import" name="${varLwIPEnable}_lwip_src1">
+		<copy>arch/lpc17xx_40xx_systick_arch.c</copy>
+	</template>
+</LPCOpenCfg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\software\lpc_core\lpc_board\boards_17xx\nxp_lpcxpresso_1769\lib_lpc_board_nxp_lpcxpresso_1769.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\..\..\..\..\software\lpc_core\lpc_chip\chip_17xx_40xx\lib_lpc_chip_175x_6x.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\lpcusblib_host\usbhost_keyboard\usbhost_keyboard.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\lpcusblib_host\usbhost_msc\usbhost_msc.ewp</path>
+  </project>
+  <batchBuild>
+  </batchBuild>
+</workspace>
+
+
